@@ -1,0 +1,13 @@
+[package]
+name = "neural_network_mnist_solver"
+version = "0.1.0"
+edition = "2021"
+authors = ["Benoît Jeaurond <benoit@jeaurond.dev>"]
+
+[dependencies]
+rand = "0.8.5"
+nalgebra = "0.32.3"
+ureq = "2.9.1"
+flate2 = "1.0.20"
+serde = { version = "1.0.195", features = ["derive"] }
+clap = { version = "4.4.14", features = ["derive"] }
